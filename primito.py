@@ -40,7 +40,7 @@ def print_banner():
     print(f"{C.CYAN}  ╔═════════════════════════════╗{C.RESET}")
     print(f"{C.CYAN}  ║{C.RESET}   {C.GREEN}{C.BOLD}Haz tu pregunta pendeja{C.RESET}{C.CYAN}   ║{C.RESET}")
     print(f"{C.CYAN}  ╚═════════════════════════════╝{C.RESET}")
-    print(f"   Escribe '{C.RED}camara{C.RESET}' para salir\n")
+    print(f"   Escribe '{C.RED}chido{C.RESET}' para salir\n")
 
 def chat():
     api_key = os.getenv("GEMINI_API_KEY")
@@ -63,7 +63,7 @@ def chat():
 
         if not user_input:
             continue
-        if user_input.lower() in ("camara"):
+        if user_input.lower() in ("chido"):
             print(f"{C.CYAN}{C.BOLD}primito › {C.RESET}Sobres\n")
             break
 
