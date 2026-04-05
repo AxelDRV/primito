@@ -10,6 +10,7 @@ Soy chatbot en tu terminal para dudas rápidas, sin abrir el navegador con una p
 - Una API key de [Google AI Studio](https://aistudio.google.com) (gratis)
 
 ## Instalación
+Corre el siguiente comando para comenzar a chatear con primito
 ```bash
 git clone https://github.com/tuusuario/primito.git && cd primito && ./instalar.sh
 ```
@@ -33,6 +34,7 @@ GEMINI_API_KEY=tu_api_key_aqui
 ```
 
 ## Uso
+Escribe en tu terminal:
 ```bash
 primito
 ```
